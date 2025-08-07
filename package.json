@@ -1,0 +1,23 @@
+{
+  "name": "loan-management-system",
+  "version": "1.0.0",
+  "description": "Modular Loan Management System with HTTP Server",
+  "main": "http-server.js",
+  "scripts": {
+    "start": "node http-server.js",
+    "dev": "node http-server.js",
+    "test": "node server-node.js",
+    "test-modular": "node server-modular.js"
+  },
+  "keywords": [
+    "loan-management",
+    "modular-architecture",
+    "node-server",
+    "api-testing"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
